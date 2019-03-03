@@ -1,0 +1,35 @@
+<div class="col-md-6">
+  <h2 class="text-center">Edit User</h2>
+  <form [formGroup]="editForm" #employeeForm="ngForm" (ngSubmit)="onSubmit()">
+    
+
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" formControlName="name" placeholder="Name" name="Name" class="form-control" id="Name">
+    </div>
+
+    <div class="form-group">
+      <label for="gender">Gender:</label>
+      <input type="text" formControlName="gender" placeholder="Gender" name="gender" class="form-control" id="gender">
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" formControlName="Email" placeholder="Email" name="email" class="form-control" id="email">
+    </div>
+    <div class="form-group">
+      <label for="dob">DOB:</label>
+      <input type="text" formControlName="dob" placeholder="DOB" name="dob" class="form-control" id="dob">
+    </div>
+    <div class="form-group">
+      <label for="dept">Department:</label>
+      <input type="text" formControlName="department" placeholder="Department" name="dept" class="form-control" id="dept">
+    </div>
+    <div class="form-group">
+      <label for="dept">Leaves:</label>
+      <input type="number" formControlName="leaves" placeholder="leaves" name="leave" class="form-control" id="leave">
+    </div>
+    <button class="btn btn-success" type="submit" [disabled]="!employeeForm.valid">Update</button>
+    <button class="btn btn-success" style="margin-left: 40px;" routerLink="/">Back</button>
+  </form>
+</div>
+

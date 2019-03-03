@@ -1,0 +1,111 @@
+{
+  "listemployees": [
+    {
+      "id": 2,
+      "name": "Krishna",
+      "gender": "male",
+      "Email": "krishnachatti@gmail.com",
+      "dob": "05/12/1978",
+      "department": "IT",
+      "leaves": 2
+    },
+    {
+      "id": 1,
+      "name": "Manimala",
+      "gender": "female",
+      "Email": "manihyd.84@gmail.com",
+      "dob": "19/08/1984",
+      "department": "IT",
+      "leaves": "1"
+    },
+    {
+      "id": 7,
+      "name": "Kesava Harshith",
+      "gender": "male",
+      "Email": "mosh@domain.com",
+      "dob": "12/07/2010",
+      "department": "IT",
+      "leaves": "1"
+    },
+    {
+      "id": 8,
+      "name": "krishna ch",
+      "gender": "male",
+      "Email": "mosh@domain.com",
+      "dob": "25/8/1978",
+      "department": "IT",
+      "leaves": "1"
+    },
+    {
+      "id": 10,
+      "name": "Harshith chatti",
+      "gender": "male",
+      "Email": "krishnachatti@gmail.com",
+      "dob": "12/07/2010",
+      "department": "IT",
+      "leaves": "1"
+    },
+    {
+      "id": 12,
+      "name": "chintu",
+      "gender": "male",
+      "Email": "mosh@domain.com",
+      "dob": "25/8/1978",
+      "department": "IT",
+      "leaves": 2
+    },
+    {
+      "id": 9,
+      "name": " ch kesava",
+      "gender": "male",
+      "Email": "manihyd.84@gmail.com",
+      "dob": "23/8/1983",
+      "department": "IT",
+      "leaves": 1
+    },
+    {
+      "id": 21,
+      "name": "mani",
+      "gender": "female",
+      "Email": "manihyd.84@gmail.com",
+      "dob": "10/4/1984",
+      "department": "IT",
+      "leaves": 1
+    },
+    {
+      "id": 22,
+      "name": "tulasi",
+      "gender": "male",
+      "Email": "krishnachatti@gmail.com",
+      "dob": "10/4/1984",
+      "department": "IT",
+      "leaves": 1
+    },
+    {
+      "name": "jdfgjdfgjk kfgk",
+      "gender": "kdfjkd",
+      "Email": "krishna@yahoo",
+      "dob": "12/12/2000",
+      "department": "jsdfjsdf",
+      "leaves": 5,
+      "id": 23
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
