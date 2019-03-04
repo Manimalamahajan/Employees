@@ -18,7 +18,7 @@ export class EdituderComponent implements OnInit {
     const userId = localStorage.getItem('editUserId');
     if (!userId) {
       alert('Invalid action.');
-      this.router.navigate(['employee']);
+      this.router.navigate(['']);
       return;
     }
     this.editForm = this.formBuilder.group({
@@ -40,7 +40,7 @@ export class EdituderComponent implements OnInit {
       .pipe(first())
       .subscribe(
         data => {
-          this.router.navigate(['employee']);
+          this.router.navigate(['']);
         },
         error => {
           alert(error);

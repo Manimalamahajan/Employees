@@ -16,8 +16,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AdduserComponent } from './adduser/adduser.component';
 import { EdituderComponent } from './edituder/edituder.component';
 import { EmpuserComponent } from './empuser/empuser.component';
-import { AngularFireModule } from 'angularfire2';
-import { AngularFireDatabaseModule } from 'angularfire2/database';
+
 
 const approutes: Routes = [
   // {
@@ -53,8 +52,7 @@ const approutes: Routes = [
     FormsModule,
     ReactiveFormsModule,
     RouterModule.forRoot(approutes),
-    AngularFireModule.initializeApp(environment.firebase),
-    AngularFireDatabaseModule
+    
   ],
   providers: [TestserviceService, EmployeeService],
   bootstrap: [AppComponent]
