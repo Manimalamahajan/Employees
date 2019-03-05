@@ -2,10 +2,20 @@
 <div class="container" style="margin-left:90px;font-size:1rem;">
   <h2  style="margin-top:20px;">Employee Details</h2>
   <button class="btn btn-danger" style="float:right;    position: relative;
-  right: 74px;
+  right: 143px; bottom: 46px;
 " (click)="addUser()"> Add Employee</button>
+<ag-grid-angular 
+#agGrid
+style="width: 1200px; height: 500px;" 
+class="ag-theme-balham"
+[rowData]="rowData "
+[columnDefs]="columnDefs"
+rowSelection="multiple"
+(rowClicked)="onRowClicked($event)"
+>
+</ag-grid-angular>
 
-  <table class="table table-hover">
+  <!--<table class="table table-hover">
     <thead>
       <tr class="color">
         
@@ -15,7 +25,7 @@
         <th>DOB</th>
         <th>Department</th>
         <th>Leaves</th>
-      </tr>
+      </tr>-->
       <!-- <tr>
         <th>
           <input type="text" placeholder="new Id">
@@ -39,7 +49,7 @@
           <button class="btn btn-primary" (click)="addemployee()">Add</button>
         </th>
     </tr> -->
-    </thead>
+    <!--</thead>
     <tbody *ngFor="let item of Data ">
       <tr>
         
@@ -61,6 +71,6 @@
   </table>
   
 </div>
-<div class="container">
+<div class="container">-->
 
 </div>

@@ -16,6 +16,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AdduserComponent } from './adduser/adduser.component';
 import { EdituderComponent } from './edituder/edituder.component';
 import { EmpuserComponent } from './empuser/empuser.component';
+import { AgGridModule } from 'ag-grid-angular';
 
 
 const approutes: Routes = [
@@ -48,6 +49,7 @@ const approutes: Routes = [
   ],
   imports: [
     BrowserModule,
+    AgGridModule.withComponents([]),
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
